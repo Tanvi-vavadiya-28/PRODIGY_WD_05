@@ -4,7 +4,7 @@ import Weather from './components/weather';
 import LocationInput from './components/LocationInput';
 import './App.css';
 
-const API_KEY = '09a963f9437c31ee42569c7535b1a043';
+const API_KEY = 'YOUR_API_KEY';
 
 const App = () => {
   const [weatherData, setWeatherData] = useState(null);
